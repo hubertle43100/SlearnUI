@@ -12,13 +12,10 @@ struct ContentView: View {
     var body: some View {
         //Text(pizza > 5 ? "Helloo Pizza!!!!" : "Hello World")
         VStack {
-            Text("Huli Pizza Company")
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-            Image("Surf Board")
-                .resizable()
-                .scaledToFit()
-            Text("Order Pizza")
-                .font(.largeTitle)
+            ContentHeaderView()
+            MenuListView()
+            OrderListView()
+            
             Spacer()
         }
         .padding()
