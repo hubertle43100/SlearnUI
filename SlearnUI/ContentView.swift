@@ -13,11 +13,14 @@ struct ContentView: View {
         //Text(pizza > 5 ? "Helloo Pizza!!!!" : "Hello World")
         VStack {
             ContentHeaderView()
+                .layoutPriority(2)
             PageTitleView(title: "Order Pizza")
             MenuListView()
+                .layoutPriority(1)
             OrderListView()
+                .layoutPriority(1)
             
-            Spacer()
+           // Spacer()
         }
         .padding()
     }
