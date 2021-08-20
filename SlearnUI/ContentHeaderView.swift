@@ -15,10 +15,9 @@ struct ContentHeaderView: View {
                     .resizable()
                     .scaledToFit()
                 Text("Huli Pizza Company")
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(Font.custom("Avinir-Black", size: 10))
+                    .foregroundColor(.white)
             }
-            Text("Order Pizza")
-                .font(.largeTitle)
         }
     }
 }
@@ -26,5 +25,6 @@ struct ContentHeaderView: View {
 struct ContentHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         ContentHeaderView()
+            .environment(\.sizeCategory, .accessibilityExtraExtraLarge)
     }
 }
