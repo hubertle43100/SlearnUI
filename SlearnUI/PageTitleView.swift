@@ -11,16 +11,20 @@ struct PageTitleView: View {
     var title: String
     var body: some View {
         HStack {
+            Spacer()
             Text(title)
                 .font(.largeTitle)
-                .fontWeight(.light)
-            Spacer()
+                .fontWeight(.heavy)
+                //.fontWeight(.light)
+                .padding(.trailing)
         }.overlay(
             Image(systemName: "chevron.up.square")
                 .font(.title)
                 .padding(),
-                alignment: .trailing
+                alignment: .leading
         )
+        .foregroundColor(Color("G1"))
+        .background(Color("G4"))
     }
 }
 
