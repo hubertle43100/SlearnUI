@@ -28,6 +28,7 @@
 		5627FCEB26D985BA00468F7E /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5627FCE826D985BA00468F7E /* HistoryModel.swift */; };
 		5627FCEC26D985BA00468F7E /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5627FCE926D985BA00468F7E /* MenuModel.swift */; };
 		5627FCED26D985BA00468F7E /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5627FCEA26D985BA00468F7E /* OrderModel.swift */; };
+		5650B42626E064F200A7C2C0 /* MenuDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5650B42526E064F200A7C2C0 /* MenuDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		5627FCE826D985BA00468F7E /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryModel.swift; path = "../../../../../Downloads/Ex_Files_SwiftUI_EssT_Upd/Exercise Files/04/03/HistoryModel.swift"; sourceTree = "<group>"; };
 		5627FCE926D985BA00468F7E /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuModel.swift; path = "../../../../../Downloads/Ex_Files_SwiftUI_EssT_Upd/Exercise Files/04/03/MenuModel.swift"; sourceTree = "<group>"; };
 		5627FCEA26D985BA00468F7E /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderModel.swift; path = "../../../../../Downloads/Ex_Files_SwiftUI_EssT_Upd/Exercise Files/04/03/OrderModel.swift"; sourceTree = "<group>"; };
+		5650B42526E064F200A7C2C0 /* MenuDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuDetailView.swift; path = "../../../../../Downloads/Ex_Files_SwiftUI_EssT_Upd/Exercise Files/04/05/MenuDetailView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				5627FCD026CD825200468F7E /* MenuListView.swift */,
 				5627FCD626CD873C00468F7E /* MenuRowView.swift */,
+				5650B42526E064F200A7C2C0 /* MenuDetailView.swift */,
 				5627FCD826CD877B00468F7E /* RatingsView.swift */,
 			);
 			path = MenuView;
@@ -224,6 +227,7 @@
 			files = (
 				5627FCEB26D985BA00468F7E /* HistoryModel.swift in Sources */,
 				561808C426C749A600480A2E /* AppDelegate.swift in Sources */,
+				5650B42626E064F200A7C2C0 /* MenuDetailView.swift in Sources */,
 				5627FCDD26CDE3BE00468F7E /* HistoryRowView.swift in Sources */,
 				5627FCD126CD825200468F7E /* MenuListView.swift in Sources */,
 				5627FCDB26CD880400468F7E /* PageTitleView.swift in Sources */,
