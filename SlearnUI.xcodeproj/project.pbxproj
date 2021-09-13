@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5609DA6E26F016E900E250E0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609DA6D26F016E900E250E0 /* MapViewController.swift */; };
+		5609DA7026F0171900E250E0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609DA6F26F0171900E250E0 /* MapView.swift */; };
 		561808C426C749A600480A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561808C326C749A600480A2E /* AppDelegate.swift */; };
 		561808C626C749A600480A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561808C526C749A600480A2E /* SceneDelegate.swift */; };
 		561808C826C749A600480A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561808C726C749A600480A2E /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5609DA6D26F016E900E250E0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "../../../../../Downloads/Ex_Files_SwiftUI_EssT_Upd/Exercise Files/06/01/MapViewController.swift"; sourceTree = "<group>"; };
+		5609DA6F26F0171900E250E0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		561808C026C749A600480A2E /* SlearnUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlearnUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		561808C326C749A600480A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		561808C526C749A600480A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,10 +160,12 @@
 		5627FCCD26CD7D6A00468F7E /* HistoryView */ = {
 			isa = PBXGroup;
 			children = (
+				5609DA6F26F0171900E250E0 /* MapView.swift */,
 				5627FCDC26CDE3BE00468F7E /* HistoryRowView.swift */,
 				5627FCDE26CDE3F600468F7E /* HistoryListView.swift */,
 				5627B66E26E96A3B005A1B1C /* HistoryDetailView.swift */,
 				5627FCE026CDE42100468F7E /* HistoryView.swift */,
+				5609DA6D26F016E900E250E0 /* MapViewController.swift */,
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5627FCEB26D985BA00468F7E /* HistoryModel.swift in Sources */,
+				5609DA7026F0171900E250E0 /* MapView.swift in Sources */,
 				561808C426C749A600480A2E /* AppDelegate.swift in Sources */,
 				5627B66F26E96A3B005A1B1C /* HistoryDetailView.swift in Sources */,
 				5650B42626E064F200A7C2C0 /* MenuDetailView.swift in Sources */,
@@ -243,6 +250,7 @@
 				5627FCDB26CD880400468F7E /* PageTitleView.swift in Sources */,
 				5627B67326E973C3005A1B1C /* RootTabView.swift in Sources */,
 				5627FCEC26D985BA00468F7E /* MenuModel.swift in Sources */,
+				5609DA6E26F016E900E250E0 /* MapViewController.swift in Sources */,
 				5627FCE126CDE42100468F7E /* HistoryView.swift in Sources */,
 				5627FCCF26CD7DDF00468F7E /* OrderListView.swift in Sources */,
 				5627FCD326CD82F300468F7E /* ContentHeaderView.swift in Sources */,
