@@ -16,7 +16,6 @@ struct PageTitleView: View {
             Text(title)
                 .font(.largeTitle)
                 .fontWeight(.heavy)
-                //.fontWeight(.light)
                 .padding(.trailing)
         }.overlay(
             Image(systemName:  "chevron.up.square")

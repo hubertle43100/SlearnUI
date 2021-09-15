@@ -19,7 +19,6 @@ struct MenuListView: View {
                         MenuRowView(menuItem: item)
                         .listRowInsets(EdgeInsets())
                     }
-                    //Text(item.name)
                 }
                 .navigationBarTitle("Pizza Order")
             }
