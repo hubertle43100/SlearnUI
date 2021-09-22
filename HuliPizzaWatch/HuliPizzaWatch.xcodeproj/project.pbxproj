@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567AAED126FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 567AAED026FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		567AAED726FBDD0D0089F7DB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567AAED526FBDD0D0089F7DB /* Interface.storyboard */; };
+		567AAED926FBDD0E0089F7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567AAED826FBDD0E0089F7DB /* Assets.xcassets */; };
+		567AAEE026FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 567AAEDF26FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		567AAEE526FBDD0E0089F7DB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEE426FBDD0E0089F7DB /* InterfaceController.swift */; };
+		567AAEE726FBDD0E0089F7DB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEE626FBDD0E0089F7DB /* ExtensionDelegate.swift */; };
+		567AAEE926FBDD0E0089F7DB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEE826FBDD0E0089F7DB /* NotificationController.swift */; };
+		567AAEEB26FBDD0E0089F7DB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEEA26FBDD0E0089F7DB /* ComplicationController.swift */; };
+		567AAEED26FBDD0F0089F7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567AAEEC26FBDD0F0089F7DB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		567AAED226FBDD0D0089F7DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567AAEC626FBDD0C0089F7DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567AAECF26FBDD0D0089F7DB;
+			remoteInfo = "HuliPizzaWatch WatchKit App";
+		};
+		567AAEE126FBDD0E0089F7DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567AAEC626FBDD0C0089F7DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567AAEDE26FBDD0E0089F7DB;
+			remoteInfo = "HuliPizzaWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		567AAEF526FBDD0F0089F7DB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				567AAEE026FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567AAEF926FBDD0F0089F7DB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				567AAED126FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		567AAECC26FBDD0D0089F7DB /* HuliPizzaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizzaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567AAED026FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HuliPizzaWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		567AAED626FBDD0D0089F7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		567AAED826FBDD0E0089F7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567AAEDA26FBDD0E0089F7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567AAEDF26FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HuliPizzaWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		567AAEE426FBDD0E0089F7DB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		567AAEE626FBDD0E0089F7DB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		567AAEE826FBDD0E0089F7DB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		567AAEEA26FBDD0E0089F7DB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		567AAEEC26FBDD0F0089F7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567AAEEE26FBDD0F0089F7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567AAEEF26FBDD0F0089F7DB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567AAEDC26FBDD0E0089F7DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567AAEC526FBDD0C0089F7DB = {
+			isa = PBXGroup;
+			children = (
+				567AAED426FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App */,
+				567AAEE326FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension */,
+				567AAECD26FBDD0D0089F7DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		567AAECD26FBDD0D0089F7DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567AAECC26FBDD0D0089F7DB /* HuliPizzaWatch.app */,
+				567AAED026FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App.app */,
+				567AAEDF26FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567AAED426FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				567AAED526FBDD0D0089F7DB /* Interface.storyboard */,
+				567AAED826FBDD0E0089F7DB /* Assets.xcassets */,
+				567AAEDA26FBDD0E0089F7DB /* Info.plist */,
+			);
+			path = "HuliPizzaWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		567AAEE326FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				567AAEE426FBDD0E0089F7DB /* InterfaceController.swift */,
+				567AAEE626FBDD0E0089F7DB /* ExtensionDelegate.swift */,
+				567AAEE826FBDD0E0089F7DB /* NotificationController.swift */,
+				567AAEEA26FBDD0E0089F7DB /* ComplicationController.swift */,
+				567AAEEC26FBDD0F0089F7DB /* Assets.xcassets */,
+				567AAEEE26FBDD0F0089F7DB /* Info.plist */,
+				567AAEEF26FBDD0F0089F7DB /* PushNotificationPayload.apns */,
+			);
+			path = "HuliPizzaWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567AAECB26FBDD0C0089F7DB /* HuliPizzaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567AAEFA26FBDD0F0089F7DB /* Build configuration list for PBXNativeTarget "HuliPizzaWatch" */;
+			buildPhases = (
+				567AAECA26FBDD0C0089F7DB /* Resources */,
+				567AAEF926FBDD0F0089F7DB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567AAED326FBDD0D0089F7DB /* PBXTargetDependency */,
+			);
+			name = HuliPizzaWatch;
+			productName = HuliPizzaWatch;
+			productReference = 567AAECC26FBDD0D0089F7DB /* HuliPizzaWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		567AAECF26FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567AAEF626FBDD0F0089F7DB /* Build configuration list for PBXNativeTarget "HuliPizzaWatch WatchKit App" */;
+			buildPhases = (
+				567AAECE26FBDD0D0089F7DB /* Resources */,
+				567AAEF526FBDD0F0089F7DB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567AAEE226FBDD0E0089F7DB /* PBXTargetDependency */,
+			);
+			name = "HuliPizzaWatch WatchKit App";
+			productName = "HuliPizzaWatch WatchKit App";
+			productReference = 567AAED026FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		567AAEDE26FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567AAEF226FBDD0F0089F7DB /* Build configuration list for PBXNativeTarget "HuliPizzaWatch WatchKit Extension" */;
+			buildPhases = (
+				567AAEDB26FBDD0E0089F7DB /* Sources */,
+				567AAEDC26FBDD0E0089F7DB /* Frameworks */,
+				567AAEDD26FBDD0E0089F7DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HuliPizzaWatch WatchKit Extension";
+			productName = "HuliPizzaWatch WatchKit Extension";
+			productReference = 567AAEDF26FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567AAEC626FBDD0C0089F7DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					567AAECB26FBDD0C0089F7DB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					567AAECF26FBDD0D0089F7DB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					567AAEDE26FBDD0E0089F7DB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 567AAEC926FBDD0C0089F7DB /* Build configuration list for PBXProject "HuliPizzaWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 567AAEC526FBDD0C0089F7DB;
+			productRefGroup = 567AAECD26FBDD0D0089F7DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567AAECB26FBDD0C0089F7DB /* HuliPizzaWatch */,
+				567AAECF26FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App */,
+				567AAEDE26FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567AAECA26FBDD0C0089F7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567AAECE26FBDD0D0089F7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567AAED926FBDD0E0089F7DB /* Assets.xcassets in Resources */,
+				567AAED726FBDD0D0089F7DB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567AAEDD26FBDD0E0089F7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567AAEED26FBDD0F0089F7DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567AAEDB26FBDD0E0089F7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567AAEE926FBDD0E0089F7DB /* NotificationController.swift in Sources */,
+				567AAEEB26FBDD0E0089F7DB /* ComplicationController.swift in Sources */,
+				567AAEE726FBDD0E0089F7DB /* ExtensionDelegate.swift in Sources */,
+				567AAEE526FBDD0E0089F7DB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		567AAED326FBDD0D0089F7DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567AAECF26FBDD0D0089F7DB /* HuliPizzaWatch WatchKit App */;
+			targetProxy = 567AAED226FBDD0D0089F7DB /* PBXContainerItemProxy */;
+		};
+		567AAEE226FBDD0E0089F7DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567AAEDE26FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension */;
+			targetProxy = 567AAEE126FBDD0E0089F7DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		567AAED526FBDD0D0089F7DB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567AAED626FBDD0D0089F7DB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		567AAEF026FBDD0F0089F7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		567AAEF126FBDD0F0089F7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567AAEF326FBDD0F0089F7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				INFOPLIST_FILE = "HuliPizzaWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubertle.HuliPizzaWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		567AAEF426FBDD0F0089F7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				INFOPLIST_FILE = "HuliPizzaWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubertle.HuliPizzaWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		567AAEF726FBDD0F0089F7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				IBSC_MODULE = HuliPizzaWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HuliPizzaWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubertle.HuliPizzaWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		567AAEF826FBDD0F0089F7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				IBSC_MODULE = HuliPizzaWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HuliPizzaWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubertle.HuliPizzaWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		567AAEFB26FBDD0F0089F7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubertle.HuliPizzaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		567AAEFC26FBDD0F0089F7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hubertle.HuliPizzaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567AAEC926FBDD0C0089F7DB /* Build configuration list for PBXProject "HuliPizzaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567AAEF026FBDD0F0089F7DB /* Debug */,
+				567AAEF126FBDD0F0089F7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567AAEF226FBDD0F0089F7DB /* Build configuration list for PBXNativeTarget "HuliPizzaWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567AAEF326FBDD0F0089F7DB /* Debug */,
+				567AAEF426FBDD0F0089F7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567AAEF626FBDD0F0089F7DB /* Build configuration list for PBXNativeTarget "HuliPizzaWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567AAEF726FBDD0F0089F7DB /* Debug */,
+				567AAEF826FBDD0F0089F7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567AAEFA26FBDD0F0089F7DB /* Build configuration list for PBXNativeTarget "HuliPizzaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567AAEFB26FBDD0F0089F7DB /* Debug */,
+				567AAEFC26FBDD0F0089F7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567AAEC626FBDD0C0089F7DB /* Project object */;
+}
