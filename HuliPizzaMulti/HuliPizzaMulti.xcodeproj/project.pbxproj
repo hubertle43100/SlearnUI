@@ -41,6 +41,8 @@
 		567AAEBF26FA9AB90089F7DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEA226FA9AB90089F7DB /* ContentView.swift */; };
 		567AAEC026FA9AB90089F7DB /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEA326FA9AB90089F7DB /* ContentHeaderView.swift */; };
 		567AAEC126FA9AB90089F7DB /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEA326FA9AB90089F7DB /* ContentHeaderView.swift */; };
+		567AAEC326FB14BF0089F7DB /* GridNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEC226FB14BE0089F7DB /* GridNavigationView.swift */; };
+		567AAEC426FB14BF0089F7DB /* GridNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEC226FB14BE0089F7DB /* GridNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,7 @@
 		567AAEA126FA9AB90089F7DB /* ListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 		567AAEA226FA9AB90089F7DB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		567AAEA326FA9AB90089F7DB /* ContentHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
+		567AAEC226FB14BE0089F7DB /* GridNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,7 @@
 				567AAE9726FA9AB90089F7DB /* MenuListView.swift */,
 				567AAE9826FA9AB90089F7DB /* MenuDetailView.swift */,
 				567AAE9926FA9AB90089F7DB /* ConfirmView.swift */,
+				567AAEC226FB14BE0089F7DB /* GridNavigationView.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -277,6 +281,7 @@
 				567AAEB026FA9AB90089F7DB /* ConfirmView.swift in Sources */,
 				567AAEBC26FA9AB90089F7DB /* ListHeaderView.swift in Sources */,
 				567AAEA626FA9AB90089F7DB /* SelectedImageView.swift in Sources */,
+				567AAEC326FB14BF0089F7DB /* GridNavigationView.swift in Sources */,
 				567AAEB826FA9AB90089F7DB /* HistoryModel.swift in Sources */,
 				567AAEBA26FA9AB90089F7DB /* MenuModel.swift in Sources */,
 				567AAEBE26FA9AB90089F7DB /* ContentView.swift in Sources */,
@@ -300,6 +305,7 @@
 				567AAEB126FA9AB90089F7DB /* ConfirmView.swift in Sources */,
 				567AAEBD26FA9AB90089F7DB /* ListHeaderView.swift in Sources */,
 				567AAEA726FA9AB90089F7DB /* SelectedImageView.swift in Sources */,
+				567AAEC426FB14BF0089F7DB /* GridNavigationView.swift in Sources */,
 				567AAEB926FA9AB90089F7DB /* HistoryModel.swift in Sources */,
 				567AAEBB26FA9AB90089F7DB /* MenuModel.swift in Sources */,
 				567AAEBF26FA9AB90089F7DB /* ContentView.swift in Sources */,

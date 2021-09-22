@@ -94,9 +94,11 @@ class OrderModel:ObservableObject{
     /// Returns the menu item for a given menu ID
     /// - Parameter menuID: an `Int` that identifies a unique menu item.
     func menu(_ menuID:Int) -> MenuItem!{
-        return menu.menu.first { (item) -> Bool in
-            item.id == menuID
-        }
+//        return menu.menu.first { (item) -> Bool in
+//            item.id == menuID
+//        }
+        let rootMenu = MenuItem(id: -1, name: "root", type: .title, children: menu.menu)
+        return menu.findIn(model: rootMenu, id: menuID)
     }
     
     /// Add a item to the order by orderitem name.

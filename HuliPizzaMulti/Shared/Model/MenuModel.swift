@@ -160,15 +160,15 @@ struct MenuModel{
      11     12              21      22
      
 */
-//    func findIn(model:MenuItem, id:Int)-> MenuItem! {
-//        if id == model.id {return model} //if found, return int
-//        if let children = model.children { //if there are children
-//            for child in children{ //iterate through children
-//                if let found = findIn(model: child, id: id){ //find a child
-//                    if found.id == id {return found} // if correct ID return the child
-//                }
-//            }
-//        }
-//        return nil // if anythng fails return nil
-//    }
+    func findIn(model:MenuItem, id:Int)-> MenuItem! {
+        if id == model.id {return model} //if found, return int
+        if let children = model.children { //if there are children
+            for child in children{ //iterate through children
+                if let found = findIn(model: child, id: id){ //find a child
+                    if found.id == id {return found} // if correct ID return the child
+                }
+            }
+        }
+        return nil // if anythng fails return nil
+    }
 }
