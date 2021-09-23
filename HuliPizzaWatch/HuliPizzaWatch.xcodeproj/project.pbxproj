@@ -16,6 +16,8 @@
 		567AAEE926FBDD0E0089F7DB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEE826FBDD0E0089F7DB /* NotificationController.swift */; };
 		567AAEEB26FBDD0E0089F7DB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEEA26FBDD0E0089F7DB /* ComplicationController.swift */; };
 		567AAEED26FBDD0F0089F7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567AAEEC26FBDD0F0089F7DB /* Assets.xcassets */; };
+		567AAEFF26FD23B10089F7DB /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEFD26FD23B10089F7DB /* DetailInterfaceController.swift */; };
+		567AAF0026FD23B10089F7DB /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AAEFE26FD23B10089F7DB /* MenuModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		567AAEEC26FBDD0F0089F7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		567AAEEE26FBDD0F0089F7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		567AAEEF26FBDD0F0089F7DB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		567AAEFD26FD23B10089F7DB /* DetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
+		567AAEFE26FD23B10089F7DB /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 		567AAEE326FBDD0E0089F7DB /* HuliPizzaWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				567AAEFD26FD23B10089F7DB /* DetailInterfaceController.swift */,
+				567AAEFE26FD23B10089F7DB /* MenuModel.swift */,
 				567AAEE426FBDD0E0089F7DB /* InterfaceController.swift */,
 				567AAEE626FBDD0E0089F7DB /* ExtensionDelegate.swift */,
 				567AAEE826FBDD0E0089F7DB /* NotificationController.swift */,
@@ -258,8 +264,10 @@
 			files = (
 				567AAEE926FBDD0E0089F7DB /* NotificationController.swift in Sources */,
 				567AAEEB26FBDD0E0089F7DB /* ComplicationController.swift in Sources */,
+				567AAF0026FD23B10089F7DB /* MenuModel.swift in Sources */,
 				567AAEE726FBDD0E0089F7DB /* ExtensionDelegate.swift in Sources */,
 				567AAEE526FBDD0E0089F7DB /* InterfaceController.swift in Sources */,
+				567AAEFF26FD23B10089F7DB /* DetailInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
