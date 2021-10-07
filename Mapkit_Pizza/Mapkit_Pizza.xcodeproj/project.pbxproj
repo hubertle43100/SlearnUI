@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		565B6C22270EA8E90045589D /* Mapkit_PizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B6C0F270EA8E80045589D /* Mapkit_PizzaApp.swift */; };
+		565B6C23270EA8E90045589D /* Mapkit_PizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B6C0F270EA8E80045589D /* Mapkit_PizzaApp.swift */; };
+		565B6C24270EA8E90045589D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B6C10270EA8E80045589D /* ContentView.swift */; };
+		565B6C25270EA8E90045589D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B6C10270EA8E80045589D /* ContentView.swift */; };
+		565B6C26270EA8E90045589D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565B6C11270EA8E90045589D /* Assets.xcassets */; };
+		565B6C27270EA8E90045589D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565B6C11270EA8E90045589D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		565B6C0F270EA8E80045589D /* Mapkit_PizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapkit_PizzaApp.swift; sourceTree = "<group>"; };
+		565B6C10270EA8E80045589D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		565B6C11270EA8E90045589D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		565B6C16270EA8E90045589D /* Mapkit_Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapkit_Pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		565B6C19270EA8E90045589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565B6C1E270EA8E90045589D /* Mapkit_Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapkit_Pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		565B6C20270EA8E90045589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565B6C21270EA8E90045589D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		565B6C13270EA8E90045589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B6C1B270EA8E90045589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565B6C09270EA8E70045589D = {
+			isa = PBXGroup;
+			children = (
+				565B6C0E270EA8E80045589D /* Shared */,
+				565B6C18270EA8E90045589D /* iOS */,
+				565B6C1F270EA8E90045589D /* macOS */,
+				565B6C17270EA8E90045589D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		565B6C0E270EA8E80045589D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				565B6C0F270EA8E80045589D /* Mapkit_PizzaApp.swift */,
+				565B6C10270EA8E80045589D /* ContentView.swift */,
+				565B6C11270EA8E90045589D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		565B6C17270EA8E90045589D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				565B6C16270EA8E90045589D /* Mapkit_Pizza.app */,
+				565B6C1E270EA8E90045589D /* Mapkit_Pizza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		565B6C18270EA8E90045589D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				565B6C19270EA8E90045589D /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		565B6C1F270EA8E90045589D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				565B6C20270EA8E90045589D /* Info.plist */,
+				565B6C21270EA8E90045589D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		565B6C15270EA8E90045589D /* Mapkit_Pizza (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565B6C2A270EA8E90045589D /* Build configuration list for PBXNativeTarget "Mapkit_Pizza (iOS)" */;
+			buildPhases = (
+				565B6C12270EA8E90045589D /* Sources */,
+				565B6C13270EA8E90045589D /* Frameworks */,
+				565B6C14270EA8E90045589D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mapkit_Pizza (iOS)";
+			productName = "Mapkit_Pizza (iOS)";
+			productReference = 565B6C16270EA8E90045589D /* Mapkit_Pizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		565B6C1D270EA8E90045589D /* Mapkit_Pizza (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565B6C2D270EA8E90045589D /* Build configuration list for PBXNativeTarget "Mapkit_Pizza (macOS)" */;
+			buildPhases = (
+				565B6C1A270EA8E90045589D /* Sources */,
+				565B6C1B270EA8E90045589D /* Frameworks */,
+				565B6C1C270EA8E90045589D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mapkit_Pizza (macOS)";
+			productName = "Mapkit_Pizza (macOS)";
+			productReference = 565B6C1E270EA8E90045589D /* Mapkit_Pizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		565B6C0A270EA8E70045589D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					565B6C15270EA8E90045589D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					565B6C1D270EA8E90045589D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 565B6C0D270EA8E70045589D /* Build configuration list for PBXProject "Mapkit_Pizza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 565B6C09270EA8E70045589D;
+			productRefGroup = 565B6C17270EA8E90045589D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				565B6C15270EA8E90045589D /* Mapkit_Pizza (iOS) */,
+				565B6C1D270EA8E90045589D /* Mapkit_Pizza (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		565B6C14270EA8E90045589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B6C26270EA8E90045589D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B6C1C270EA8E90045589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B6C27270EA8E90045589D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		565B6C12270EA8E90045589D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B6C24270EA8E90045589D /* ContentView.swift in Sources */,
+				565B6C22270EA8E90045589D /* Mapkit_PizzaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B6C1A270EA8E90045589D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B6C25270EA8E90045589D /* ContentView.swift in Sources */,
+				565B6C23270EA8E90045589D /* Mapkit_PizzaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		565B6C28270EA8E90045589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		565B6C29270EA8E90045589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		565B6C2B270EA8E90045589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubertle.Mapkit-Pizza";
+				PRODUCT_NAME = Mapkit_Pizza;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		565B6C2C270EA8E90045589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubertle.Mapkit-Pizza";
+				PRODUCT_NAME = Mapkit_Pizza;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		565B6C2E270EA8E90045589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubertle.Mapkit-Pizza";
+				PRODUCT_NAME = Mapkit_Pizza;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		565B6C2F270EA8E90045589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 42VXZMD96K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubertle.Mapkit-Pizza";
+				PRODUCT_NAME = Mapkit_Pizza;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		565B6C0D270EA8E70045589D /* Build configuration list for PBXProject "Mapkit_Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565B6C28270EA8E90045589D /* Debug */,
+				565B6C29270EA8E90045589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565B6C2A270EA8E90045589D /* Build configuration list for PBXNativeTarget "Mapkit_Pizza (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565B6C2B270EA8E90045589D /* Debug */,
+				565B6C2C270EA8E90045589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565B6C2D270EA8E90045589D /* Build configuration list for PBXNativeTarget "Mapkit_Pizza (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565B6C2E270EA8E90045589D /* Debug */,
+				565B6C2F270EA8E90045589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 565B6C0A270EA8E70045589D /* Project object */;
+}
