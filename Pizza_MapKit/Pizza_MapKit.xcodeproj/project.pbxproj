@@ -15,6 +15,9 @@
 		566D9650270F913E00ACFCDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566D964F270F913E00ACFCDF /* Main.storyboard */; };
 		566D9652270F91EB00ACFCDF /* PizzaAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D9651270F91EB00ACFCDF /* PizzaAnnotation.swift */; };
 		566D9654270F921500ACFCDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D9653270F921500ACFCDF /* ViewController.swift */; };
+		56DA5C94271F683100C00C96 /* PizzaHistoryAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DA5C93271F683100C00C96 /* PizzaHistoryAnnotations.swift */; };
+		56DA5C9F2720FF8100C00C96 /* AnnotationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DA5C9D2720FF8100C00C96 /* AnnotationDetailViewController.swift */; };
+		56DA5CA02720FF8100C00C96 /* AnnotationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56DA5C9E2720FF8100C00C96 /* AnnotationDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		566D964F270F913E00ACFCDF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		566D9651270F91EB00ACFCDF /* PizzaAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaAnnotation.swift; sourceTree = "<group>"; };
 		566D9653270F921500ACFCDF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Downloads/Ex_Files_Advanced_iOS_Dev_MapKit_Core/Exercise Files/02_01/Begin/PizzaHistoryMap/PizzaHistoryMap/ViewController.swift"; sourceTree = "<group>"; };
+		56DA5C93271F683100C00C96 /* PizzaHistoryAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaHistoryAnnotations.swift; sourceTree = "<group>"; };
+		56DA5C9D2720FF8100C00C96 /* AnnotationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationDetailViewController.swift; sourceTree = "<group>"; };
+		56DA5C9E2720FF8100C00C96 /* AnnotationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,10 @@
 				566D9636270F90C600ACFCDF /* AppDelegate.swift */,
 				566D9638270F90C600ACFCDF /* SceneDelegate.swift */,
 				566D9651270F91EB00ACFCDF /* PizzaAnnotation.swift */,
+				56DA5C93271F683100C00C96 /* PizzaHistoryAnnotations.swift */,
 				566D9653270F921500ACFCDF /* ViewController.swift */,
+				56DA5C9D2720FF8100C00C96 /* AnnotationDetailViewController.swift */,
+				56DA5C9E2720FF8100C00C96 /* AnnotationDetailViewController.xib */,
 				566D964F270F913E00ACFCDF /* Main.storyboard */,
 				566D964A270F90D200ACFCDF /* Assets.xcassets */,
 				566D9641270F90C800ACFCDF /* LaunchScreen.storyboard */,
@@ -139,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DA5CA02720FF8100C00C96 /* AnnotationDetailViewController.xib in Resources */,
 				566D9643270F90C800ACFCDF /* LaunchScreen.storyboard in Resources */,
 				566D964B270F90D200ACFCDF /* Assets.xcassets in Resources */,
 				566D9650270F913E00ACFCDF /* Main.storyboard in Resources */,
@@ -153,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				566D9654270F921500ACFCDF /* ViewController.swift in Sources */,
+				56DA5C94271F683100C00C96 /* PizzaHistoryAnnotations.swift in Sources */,
 				566D9652270F91EB00ACFCDF /* PizzaAnnotation.swift in Sources */,
 				566D9637270F90C600ACFCDF /* AppDelegate.swift in Sources */,
+				56DA5C9F2720FF8100C00C96 /* AnnotationDetailViewController.swift in Sources */,
 				566D9639270F90C600ACFCDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

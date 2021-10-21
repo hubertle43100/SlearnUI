@@ -83,8 +83,11 @@
                                     <segment title="Chatham"/>
                                     <segment title="Bev. Hills"/>
                                 </segments>
+                                <connections>
+                                    <action selector="locationPicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="NQL-TD-5ju"/>
+                                </connections>
                             </segmentedControl>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="satellite" translatesAutoresizingMaskIntoConstraints="NO" id="oC6-Qp-vgB">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsBuildings="NO" showsCompass="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oC6-Qp-vgB">
                                 <rect key="frame" x="16" y="48" width="343" height="560"/>
                             </mapView>
                         </subviews>
