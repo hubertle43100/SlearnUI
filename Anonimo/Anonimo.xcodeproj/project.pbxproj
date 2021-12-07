@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561F875F275C1BD600C86418 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 561F875E275C1BD600C86418 /* GoogleService-Info.plist */; };
+		561F8761275C1FFA00C86418 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F8760275C1FFA00C86418 /* ImagePicker.swift */; };
+		561F8764275EDD8400C86418 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 561F8763275EDD8400C86418 /* FirebaseAuth */; };
+		561F8766275EDD8400C86418 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 561F8765275EDD8400C86418 /* FirebaseFirestore */; };
+		561F8768275EDD8400C86418 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 561F8767275EDD8400C86418 /* FirebaseStorage */; };
 		56F569F1275B51A20053646A /* AnonimoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F569F0275B51A20053646A /* AnonimoApp.swift */; };
 		56F569F3275B51A20053646A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F569F2275B51A20053646A /* ContentView.swift */; };
 		56F569F5275B51A50053646A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F569F4275B51A50053646A /* Assets.xcassets */; };
@@ -14,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		561F875E275C1BD600C86418 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		561F8760275C1FFA00C86418 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		56F569ED275B51A20053646A /* Anonimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anonimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F569F0275B51A20053646A /* AnonimoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonimoApp.swift; sourceTree = "<group>"; };
 		56F569F2275B51A20053646A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561F8764275EDD8400C86418 /* FirebaseAuth in Frameworks */,
+				561F8766275EDD8400C86418 /* FirebaseFirestore in Frameworks */,
+				561F8768275EDD8400C86418 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +63,10 @@
 			children = (
 				56F569F0275B51A20053646A /* AnonimoApp.swift */,
 				56F569F2275B51A20053646A /* ContentView.swift */,
+				561F875E275C1BD600C86418 /* GoogleService-Info.plist */,
 				56F569F4275B51A50053646A /* Assets.xcassets */,
 				56F569F6275B51A50053646A /* Preview Content */,
+				561F8760275C1FFA00C86418 /* ImagePicker.swift */,
 			);
 			path = Anonimo;
 			sourceTree = "<group>";
@@ -83,6 +95,11 @@
 			dependencies = (
 			);
 			name = Anonimo;
+			packageProductDependencies = (
+				561F8763275EDD8400C86418 /* FirebaseAuth */,
+				561F8765275EDD8400C86418 /* FirebaseFirestore */,
+				561F8767275EDD8400C86418 /* FirebaseStorage */,
+			);
 			productName = Anonimo;
 			productReference = 56F569ED275B51A20053646A /* Anonimo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = 56F569E4275B51A20053646A;
+			packageReferences = (
+				561F8762275EDD8400C86418 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 56F569EE275B51A20053646A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +147,7 @@
 			files = (
 				56F569F8275B51A50053646A /* Preview Assets.xcassets in Resources */,
 				56F569F5275B51A50053646A /* Assets.xcassets in Resources */,
+				561F875F275C1BD600C86418 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561F8761275C1FFA00C86418 /* ImagePicker.swift in Sources */,
 				56F569F3275B51A20053646A /* ContentView.swift in Sources */,
 				56F569F1275B51A20053646A /* AnonimoApp.swift in Sources */,
 			);
@@ -341,6 +363,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		561F8762275EDD8400C86418 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		561F8763275EDD8400C86418 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 561F8762275EDD8400C86418 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		561F8765275EDD8400C86418 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 561F8762275EDD8400C86418 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		561F8767275EDD8400C86418 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 561F8762275EDD8400C86418 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 56F569E5275B51A20053646A /* Project object */;
 }
