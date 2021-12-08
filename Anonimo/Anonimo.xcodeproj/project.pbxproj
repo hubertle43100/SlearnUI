@@ -12,6 +12,7 @@
 		561F8764275EDD8400C86418 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 561F8763275EDD8400C86418 /* FirebaseAuth */; };
 		561F8766275EDD8400C86418 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 561F8765275EDD8400C86418 /* FirebaseFirestore */; };
 		561F8768275EDD8400C86418 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 561F8767275EDD8400C86418 /* FirebaseStorage */; };
+		561F876C275EE22700C86418 /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F876B275EE22700C86418 /* MainMessagesView.swift */; };
 		56F569F1275B51A20053646A /* AnonimoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F569F0275B51A20053646A /* AnonimoApp.swift */; };
 		56F569F3275B51A20053646A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F569F2275B51A20053646A /* ContentView.swift */; };
 		56F569F5275B51A50053646A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F569F4275B51A50053646A /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		561F875E275C1BD600C86418 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		561F8760275C1FFA00C86418 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		561F876B275EE22700C86418 /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
 		56F569ED275B51A20053646A /* Anonimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anonimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F569F0275B51A20053646A /* AnonimoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonimoApp.swift; sourceTree = "<group>"; };
 		56F569F2275B51A20053646A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,10 +65,11 @@
 			children = (
 				56F569F0275B51A20053646A /* AnonimoApp.swift */,
 				56F569F2275B51A20053646A /* ContentView.swift */,
+				561F8760275C1FFA00C86418 /* ImagePicker.swift */,
+				561F876B275EE22700C86418 /* MainMessagesView.swift */,
 				561F875E275C1BD600C86418 /* GoogleService-Info.plist */,
 				56F569F4275B51A50053646A /* Assets.xcassets */,
 				56F569F6275B51A50053646A /* Preview Content */,
-				561F8760275C1FFA00C86418 /* ImagePicker.swift */,
 			);
 			path = Anonimo;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				561F8761275C1FFA00C86418 /* ImagePicker.swift in Sources */,
+				561F876C275EE22700C86418 /* MainMessagesView.swift in Sources */,
 				56F569F3275B51A20053646A /* ContentView.swift in Sources */,
 				56F569F1275B51A20053646A /* AnonimoApp.swift in Sources */,
 			);
