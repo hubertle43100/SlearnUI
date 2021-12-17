@@ -11,7 +11,7 @@ import SwiftUI
 struct AnonimoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMessagesView()
         }
     }
 }
