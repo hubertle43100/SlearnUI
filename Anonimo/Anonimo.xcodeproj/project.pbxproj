@@ -59,7 +59,6 @@
 		5615CD2E276A7419001B9BDC /* MainMessages */ = {
 			isa = PBXGroup;
 			children = (
-				5615CD4227710359001B9BDC /* Mood */,
 				5615CD3E276C53DF001B9BDC /* Chat */,
 				5615CD39276BF075001B9BDC /* NewMessage */,
 				561F876B275EE22700C86418 /* MainMessagesView.swift */,
@@ -86,6 +85,7 @@
 		5615CD39276BF075001B9BDC /* NewMessage */ = {
 			isa = PBXGroup;
 			children = (
+				5615CD4327710367001B9BDC /* MoodChoice.swift */,
 				5615CD3C276BF0BB001B9BDC /* CreateNewMessageView.swift */,
 			);
 			path = NewMessage;
@@ -97,14 +97,6 @@
 				5615CD3F276C5419001B9BDC /* ChatLogView.swift */,
 			);
 			path = Chat;
-			sourceTree = "<group>";
-		};
-		5615CD4227710359001B9BDC /* Mood */ = {
-			isa = PBXGroup;
-			children = (
-				5615CD4327710367001B9BDC /* MoodChoice.swift */,
-			);
-			path = Mood;
 			sourceTree = "<group>";
 		};
 		56F569E4275B51A20053646A = {
