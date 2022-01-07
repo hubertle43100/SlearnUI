@@ -12,7 +12,6 @@
 		5615CD38276BEE77001B9BDC /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615CD37276BEE77001B9BDC /* ChatUser.swift */; };
 		5615CD3D276BF0BB001B9BDC /* CreateNewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615CD3C276BF0BB001B9BDC /* CreateNewMessageView.swift */; };
 		5615CD40276C541A001B9BDC /* ChatLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615CD3F276C5419001B9BDC /* ChatLogView.swift */; };
-		5615CD4427710367001B9BDC /* MoodChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615CD4327710367001B9BDC /* MoodChoice.swift */; };
 		561F875F275C1BD600C86418 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 561F875E275C1BD600C86418 /* GoogleService-Info.plist */; };
 		561F8761275C1FFA00C86418 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F8760275C1FFA00C86418 /* ImagePicker.swift */; };
 		561F8764275EDD8400C86418 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 561F8763275EDD8400C86418 /* FirebaseAuth */; };
@@ -30,7 +29,6 @@
 		5615CD37276BEE77001B9BDC /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
 		5615CD3C276BF0BB001B9BDC /* CreateNewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewMessageView.swift; sourceTree = "<group>"; };
 		5615CD3F276C5419001B9BDC /* ChatLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogView.swift; sourceTree = "<group>"; };
-		5615CD4327710367001B9BDC /* MoodChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChoice.swift; sourceTree = "<group>"; };
 		561F875E275C1BD600C86418 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		561F8760275C1FFA00C86418 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		561F876B275EE22700C86418 /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
@@ -226,7 +224,6 @@
 				561F876C275EE22700C86418 /* MainMessagesView.swift in Sources */,
 				5615CD32276A7DEA001B9BDC /* FirebaseManager.swift in Sources */,
 				5615CD3D276BF0BB001B9BDC /* CreateNewMessageView.swift in Sources */,
-				5615CD4427710367001B9BDC /* MoodChoice.swift in Sources */,
 				56F569F3275B51A20053646A /* ContentView.swift in Sources */,
 				56F569F1275B51A20053646A /* AnonimoApp.swift in Sources */,
 			);
