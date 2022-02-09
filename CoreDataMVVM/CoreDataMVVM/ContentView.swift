@@ -11,19 +11,16 @@ import CoreData
 //Model - data point
 //ViewModel - manages the data for a view
 
-class CoreDataViewModel: ObservableObject {
-    let container: NSPersistentContainer
+class CoreDataViewModel: ObservableObject { //Observable: observe it from the View
+    let container: NSPersistentContainer //1. initalize Container
     @Published var savedEntities: [FruitEntity] = []
     
-    init() {
+    init() { //2. setting up the Container
         container = NSPersistentContainer(name: "FruitsContainer")
         container.loadPersistentStores { (description, error) in
             if let error = error {
                 print("ERROR LOADING CORE DATA. \(error)")
             }
-//            } else {
-//                print("Successfully loaded core data!")
-//            }
         }
         fetchFruits()
     }
@@ -69,7 +66,7 @@ class CoreDataViewModel: ObservableObject {
 }
 
 struct ContentView: View {
-    @StateObject var vm = CoreDataViewModel()
+    @StateObject var vm = CoreDataViewModel() //vm: ViewModel
     @State var textFieldText: String = ""
     
     var body: some View {
