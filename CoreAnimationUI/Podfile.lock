@@ -1,0 +1,20 @@
+PODS:
+  - TheAnimation (0.4.0)
+  - ViewAnimator (3.1.0)
+
+DEPENDENCIES:
+  - TheAnimation
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - TheAnimation
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  TheAnimation: b6d6bac50365897a3aecc5a9e7b4e1461909c1a0
+  ViewAnimator: a9ceed80266e00fd435ec4fb99b2df64d580d0e4
+
+PODFILE CHECKSUM: 28b9ed0fcc3cadcd26a38b713b5b922c9a0b639f
+
+COCOAPODS: 1.11.2

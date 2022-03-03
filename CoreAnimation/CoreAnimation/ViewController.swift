@@ -5,6 +5,8 @@
 //  Created by Hubert Le on 2/23/22.
 //
 
+//4. import podfiles
+import TheAnimation
 import UIKit
 
 class ViewController: UIViewController {
@@ -20,27 +22,29 @@ class ViewController: UIViewController {
         view.layer.addSublayer(layer)
         
         DispatchQueue.main.asyncAfter(deadline: .now()+1) { //call function after 3 seconds
+            self.rotate()
+            self.animateOpacity()
             self.animateMovement()
         }
     }
     
     //2. add animated square
     func animateMovement() {
-        let animation = CABasicAnimation(keyPath: "position")
+        let animation = BasicAnimation(keyPath: .position)
         animation.fromValue = CGPoint(x: layer.frame.origin.x + (layer.frame.size.width/2), y: layer.frame.origin.y + (layer.frame.size.height/2))
         animation.toValue = CGPoint(x: 300, y: 400)
-        //animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunction)
+        animation.timingFunction = .easeInEaseOut
         animation.duration = 1
         animation.fillMode = .forwards //forwards = does not go back to starting location
         animation.isRemovedOnCompletion = false
         animation.beginTime = CACurrentMediaTime()
         
-        layer.add(animation, forKey: nil)
+        animation.animate(in: layer)
     }
     
-    //2. add animated opacity
+    //3. add animated opacity
     func animateOpacity() {
-        let animation = CABasicAnimation(keyPath: "opacity")
+        let animation = BasicAnimation(keyPath: .opacity)
         animation.fromValue = 1
         animation.toValue = 0
         animation.duration = 3
@@ -48,8 +52,23 @@ class ViewController: UIViewController {
         animation.isRemovedOnCompletion = false
         animation.beginTime = CACurrentMediaTime()
         
-        layer.add(animation, forKey: nil)
+        animation.animate(in: layer)
     }
+    
+    //5. add animated square
+    func rotate() {
+        let animation = BasicAnimation(keyPath: .transformRotationZ)
+        animation.fromValue = 0
+        animation.toValue = .pi * 12
+        animation.timingFunction = .easeInEaseOut
+        animation.duration = 1
+        animation.fillMode = .forwards //forwards = does not go back to starting location
+        animation.isRemovedOnCompletion = false
+        animation.beginTime = CACurrentMediaTime()
+        
+        animation.animate(in: layer)
+    }
+    
 
 }
 
