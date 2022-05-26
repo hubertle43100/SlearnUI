@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		56427959283F03A400C34B3B /* Two-Sum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Two-Sum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		56427952283F038F00C34B3B = {
+			isa = PBXGroup;
+			children = (
+				56427959283F03A400C34B3B /* Two-Sum.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		56427953283F038F00C34B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 56427956283F038F00C34B3B /* Build configuration list for PBXProject "Two-Sum" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56427952283F038F00C34B3B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		56427957283F038F00C34B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		56427958283F038F00C34B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56427956283F038F00C34B3B /* Build configuration list for PBXProject "Two-Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56427957283F038F00C34B3B /* Debug */,
+				56427958283F038F00C34B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56427953283F038F00C34B3B /* Project object */;
+}
