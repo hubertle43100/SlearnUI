@@ -1,0 +1,7 @@
+Two communication patters - delegates and protocols && notifications and observers
+
+Delegates and protocols: 
+- one-to-one (one view communicating with another)
+
+Notifications and observers:
+- one-to-many (1 observer and 10 different notifications point to the 1 observer)

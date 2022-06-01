@@ -1,0 +1,76 @@
+Concurrency - Doing multiple task at the same time
+
+
+== Main Thread ==
+
+- Have to keep the main thread so the UI does not freeze up 
+- Put all the heavier task in the background thread to keep UI responsive
+
+--> GCD: Grand Central Dispatch & NSOperation Queues
+	- Gives developers a better time by doing the heavy lifting.
+	- It creates and manages all the threads.
+	- Developers throws a queue of tasks at GCD and it does the rest essentially.
+
+
+
+== Queue ==
+
+- A queue is basically: 
+	FIFO = First In first out 
+	(First one to come in is the first to get executed and then the next...)
+
+--> Serial 
+
+	(Example)
+	-- Task 4 -- ask 3 -- ask 2 -- ask 1 -->
+
+
+	Task 2 does not start until task 1 is 100% completed
+
+
+--> Concurrent
+
+	(Example)							finish
+			Task 1 -->					   |
+	Task 2 -->							   |
+					Task 3 -->			   |
+								Task 4 --> |
+
+	Tasks all start at the same time but some task finish quicker than others
+
+--> Pros & Cons
+
+	Serial:
+		- Predictable Execution Order
+		- Prevents Race Conditions
+ 
+	Concurrent:
+		- Faster
+		- Unpredictable Order
+		- Might rely on condition logic such as task 4 relying on task 3
+		- Saving something such as user preferences where order does not matter
+
+- Every app gets 1 Serial & 4 Concurrent Queues
+
+
+
+== Code ==
+
+DispatchQueue.main.async {
+	self.tableView.reloadData()
+}
+
+	- Would use this if you have downloaded JSON data (downloading on the background thread) 
+	  & need to update UI by shifting it to the main thread (UI thread)
+
+
+DispatchQueue.global(qos: .background).async {
+	// Code to run on background queue
+}
+
+	- Move stuff to the background thread manually
+	- qos: quality-of-service
+	- Not use at all basically
+
+
+
