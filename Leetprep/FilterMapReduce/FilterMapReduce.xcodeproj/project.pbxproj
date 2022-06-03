@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		567F245F2847DAC400F73690 /* FilterMapReduce.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterMapReduce.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		567F24582847DAB900F73690 = {
+			isa = PBXGroup;
+			children = (
+				567F245F2847DAC400F73690 /* FilterMapReduce.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		567F24592847DAB900F73690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 567F245C2847DAB900F73690 /* Build configuration list for PBXProject "FilterMapReduce" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 567F24582847DAB900F73690;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		567F245D2847DAB900F73690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		567F245E2847DAB900F73690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567F245C2847DAB900F73690 /* Build configuration list for PBXProject "FilterMapReduce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567F245D2847DAB900F73690 /* Debug */,
+				567F245E2847DAB900F73690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567F24592847DAB900F73690 /* Project object */;
+}
