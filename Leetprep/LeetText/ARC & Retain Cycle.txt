@@ -1,0 +1,26 @@
+== ARC ==
+- Apple's way of handling memory management of objects	 
+- ACR tracks the number of references there are to an object
+
+- In short, the only way to deallocate an object is to remove all the strong reference 
+  that is pointing at that object
+
+	(Example) 
+	!note - R stands for reference
+
+	R1   --> 	               -   -->
+	R2   -->   Person      &       -   -->   Person
+	R3   --> 	              R3   -->
+	
+	If you you try to break two of the strong references by assigning it to nil
+	Person cannot be deallocated since there is still one reference still 
+	pointing at it.
+	
+	 -   --> 	               -   -->
+	 -   -->   Person      &       -   -->   -
+	 -   --> 	               -   -->
+
+	Once the last reference is broken, it shows that the Person object is not
+	used anymore and can be removed.
+
+== Memory leak in closure ==
