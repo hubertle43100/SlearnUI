@@ -1,0 +1,68 @@
+== 11. Container With Most Water ==
+
+
+   |         |
+   |         |   |
+   | |       |   |
+   | |   |   |   |
+   | |   | | |   |
+   | |   | | | | |
+   | | | | | | | |
+ | | | | | | | | |	--> Looks for minimum height and multiply by distance(8)
+____________________	    to find the max area (8 * 1 = 8)
+[1,8,6,2,5,4,8,3,7]	    8 > 0 so max area is now "8"
+ ^	  	 ^	
+ S		 E
+
+   |         |
+   |         |   |
+   | |       |   |
+   | |   |   |   |
+   | |   | | |   |
+   | |   | | | | |
+   | | | | | | | |
+ | | | | | | | | |	--> Since start height is less than end increment start
+____________________	    max area is (minimum height * distance)
+[1,8,6,2,5,4,8,3,7]	    7 * 7 = 49 (49 > 8) so max area is now "49"
+   ^	  	 ^	
+   S		 E
+
+   |         |
+   |         |   |
+   | |       |   |
+   | |   |   |   |
+   | |   | | |   |
+   | |   | | | | |
+   | | | | | | | |
+ | | | | | | | | |	--> Since end height is less than start decrement end
+____________________	    Continue... 
+[1,8,6,2,5,4,8,3,7]	    3 * 6 = 18
+   ^	       ^	
+   S	       E
+
+
+   |         |
+   |         |   |
+   | |       |   |
+   | |   |   |   |
+   | |   | | |   |
+   | |   | | | | |
+   | | | | | | | |
+ | | | | | | | | |	--> Since end height is the same than start decrement end
+____________________	    Continue... 
+[1,8,6,2,5,4,8,3,7]	    8 * 5 = 40
+   ^	     ^	
+   S	     E
+
+   |         |
+   |         |   |
+   | |       |   |
+   | |   |   |   |
+   | |   | | |   |
+   | |   | | | | |
+   | | | | | | | |
+ | | | | | | | | |	--> Eventually we go to the whole loop and 49 is the max area
+____________________	    Done!
+[1,8,6,2,5,4,8,3,7]	    
+   ^	     ^	
+   S	     E
