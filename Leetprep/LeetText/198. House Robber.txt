@@ -7,7 +7,7 @@ maxMoney = [0,0,0,0]	--> Make maxMoney an array of the same size as nums
     Nums = [1,2,3,1]	    but make all the integers "0"
 
 maxMoney = [1,2,0,0]	--> Make maxMoney[1] equal to the greater integer 
-    Nums = [1,2,3,1]	    maxMoney[0] < maxMoney[1] (1 < 2)
+    Nums = [1,2,3,1]	    nums[0] < nums[1] (1 < 2)
 	    ^ ^
 
 maxMoney = [1,2,0,0]	--> Since for loop starts at 2, compares position 0 & 2 to 1

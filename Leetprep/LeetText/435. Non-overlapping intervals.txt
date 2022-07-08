@@ -1,0 +1,45 @@
+== 435. Non-overlapping intervals ==
+
+[[1,2],[2,3],[3,4],[1,3]]
+
+1 - 2
+    2 - 3
+	3 - 4
+1   -	3
+
+
+1 - 2
+    2 - 3		--> Once we remove 1-3 which was overlapping we are left
+	3 - 4		    with only non-overlapping numbers
+
+	
+	- Note: You have to sort the array so the time complex is not high
+		checking all of the values
+
+
+== Code ==
+
+[[1,2],[2,3],[3,4],[1,3]]
+
+[[1,2],[2,3],[1,3],[3,4]]	--> Sort by the last index of the array
+
+[[1,2],[2,3],[1,3],[3,4]]	--> Since 1 > Int.min, currentMin = 2 
+  ^  				    (Int.min = 0)
+
+C: currentMin
+[[1,2],[2,3],[1,3],[3,4]]	--> Since 2 >= C, currentMin = 3 
+    ^   ^  				   
+    C
+
+[[1,2],[2,3],[1,3],[3,4]]	--> Since 1 >=! C is not true, add 1 to the results
+          ^   ^			    currentMin is still 3
+          C 	
+
+[[1,2],[2,3],[1,3],[3,4]]	--> Since 3 >= C, currentMin = 4
+          ^         ^			
+          C 	
+
+[[1,2],[2,3],[1,3],[3,4]]	--> Done! (Result = 1)
+                      ^			
+          	      C			   
+    

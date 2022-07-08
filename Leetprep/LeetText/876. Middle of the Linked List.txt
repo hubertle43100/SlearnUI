@@ -1,0 +1,44 @@
+== 876. Middle of the Linked List ==
+
+	Singly linked list: chain of list nodes
+	(1)->(2)->(3)->(4)->(5)
+
+	Next: is a reference to the next node
+
+	- Note: Counting how many nodes there are in a linked list does not exist
+	        and there is no index like in an array
+
+	- Hint: Use a slow and fast pointer to get solution
+
+Slow
+
+(1)->(2)->(3)->(4)->(5)
+ ^
+(1)->(2)->(3)->(4)->(5)
+      ^
+
+Fast
+
+(1)->(2)->(3)->(4)->(5)
+ ^
+(1)->(2)->(3)->(4)->(5)
+           ^
+
+Finding middle
+
+S:Slow	F:Fast
+(1)->(2)->(3)->(4)->(5)		--> Slow and Fast both start at the head
+ ^
+SF
+
+(1)->(2)->(3)->(4)->(5)		--> Slow goes next once, Fast goes twice
+      ^    ^
+      S	   F
+
+(1)->(2)->(3)->(4)->(5)		--> Continue...
+           ^         ^
+      	   S         F
+
+(1)->(2)->(3)->(4)->(5)		--> Since the next for F is nil then we exit out
+           ^         ^		    and then return "s" (s = 3)
+      	   S         F
